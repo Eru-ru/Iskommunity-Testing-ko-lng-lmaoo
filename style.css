@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Spectral', 'serif';
 }
 
 @keyframes slideUp {
@@ -40,7 +41,7 @@
 .navigation {
     width: 98%;
     margin: auto;
-    padding: 35px 0;
+    padding: 25px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,13 +51,13 @@
 
 .title {
     margin-left: 50px;
-    width: 300px;
+    width: 30%;
 }
 
 .navigation ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 35px;
+    margin: 0 25px;
     position: relative;
 }
 
@@ -74,7 +75,7 @@
     background: #009688;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -2px;
     transition: 0.5s;
 }
 
@@ -94,8 +95,8 @@
 
 .background {
     margin: auto;
-    width: 1280px;  
-    height: 640px;
+    width: 90%;  
+    height: 80%;
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -108,16 +109,15 @@
 .SSCH {
     color: #000;
     background-color: antiquewhite;
-    width: 1000px;
-    height: 150px;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    font-size: 75px;
+    font-size: 4.5vw;
     border-radius: 100px;
-    
+
     animation-name: slideLeft;
     animation-duration: 1.25s;
     animation-timing-function: linear;
@@ -127,7 +127,7 @@
     opacity: 0;
 }
 
-@media only screen and (max-width:1080px) {
+@media only screen and (max-width:1280px) {
     .container {
         width: 100%;
         height: 100%;
@@ -143,7 +143,7 @@
     .navigation {
         width: 90%;
         margin: auto;
-        padding: 25px 0;
+        padding: 15px 0;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -159,7 +159,7 @@
     .navigation ul li {
         list-style: none;
         display: inline-block;
-        margin: 0 5px;
+        margin: 0 6px;
         position: relative;
     }
     
@@ -167,17 +167,17 @@
         text-decoration: none;
         color: #000;
         text-transform: uppercase;
-        font-size: 1.75vw;
+        font-size: 1.6vw;
     }
     
     .navigation ul li::after {
         content: '';
-        height: 3px;
+        height: 2px;
         width: 0;
         background: #009688;
         position: absolute;
         left: 0;
-        bottom: -10px;
+        bottom: -2px;
         transition: 0.5s;
     }
     
@@ -209,13 +209,12 @@
         color: #000;
         background-color: antiquewhite;
         width: 75%;
-        height: 25%;
         margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
         position: absolute;
-        font-size: 5.5vw;
-        border-radius: 50px;
+        font-size: 5vw;
+        border-radius: 100px;
     }
 }
