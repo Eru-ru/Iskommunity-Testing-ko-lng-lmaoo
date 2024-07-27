@@ -100,7 +100,7 @@
     display: flex;
     align-items: center; 
     justify-content: center;
-    border-radius: 75px;
+    border-radius: 15px;
     animation-name: slideUp;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -167,7 +167,7 @@
         text-decoration: none;
         color: #000;
         text-transform: uppercase;
-        font-size: 1.6vw;
+        font-size: 1.5vw;
     }
     
     .navigation ul li::after {
@@ -202,7 +202,7 @@
         display: flex;
         align-items: center; 
         justify-content: center;
-        border-radius: 75px;
+        border-radius: 15px;
     }
     
     .SSCH {
